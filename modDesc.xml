@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>MX11</author>    
+	<version>1.0.0.0</version>
+	<title>
+        <de>Money Tool</de> 
+		<en>Money Tool</en> 
+	</title>
+    <description>
+        <de>
+			<![CDATA[Dieser Mod fügt durch das Betätigen der Tasten STRG + ALT + 0 eurem Kontostand 1.000.000 € hinzu.
+Im Multiplayer muss einer Spieler erst einer Farm beigetreten sein.]]>
+		</de>
+		<en>
+			<![CDATA[This Mod adds 1.000.000 $ to your account by pressing the keys CTRL + ALT + 0.
+In multiplayer, a player must first join a farm.]]>
+		</en>    
+	</description>
+    <multiplayer supported="true"/>
+    <iconFilename>modIcon.dds</iconFilename>    
+	<extraSourceFiles>
+        <sourceFile filename="MoneyTool.lua" />
+    </extraSourceFiles>
+</modDesc>
